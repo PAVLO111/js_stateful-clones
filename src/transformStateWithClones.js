@@ -35,6 +35,9 @@ function transformStateWithClones(state, actions) {
         }
         break;
       }
+
+      default:
+        break;
     }
 
     arrStates.push({ ...newState });
